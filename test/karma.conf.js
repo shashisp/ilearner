@@ -50,6 +50,7 @@ module.exports = function(config) {
       'karma-jasmine'
     ],
 
+
     // Continuous Integration mode
     // if true, it capture browsers, run tests and exit
     singleRun: false,
@@ -66,5 +67,12 @@ module.exports = function(config) {
     // },
     // URL root prevent conflicts with the site root
     // urlRoot: '_karma_'
+    // Karma configuration
+  
+    // base path, that will be used to resolve files and exclude
+    basePath = './';
+ 
+    // enable / disable watching file and executing tests whenever any file changes
+    autoWatch = true;
   });
 };
